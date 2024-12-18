@@ -19,11 +19,12 @@ To use this module, follow these instructions to [add a module from the Viam Reg
 - Enter a name for your component and click **Create**.
 - On the new component panel, copy and paste the following attribute template into your component’s **CONFIGURE** field:
 
-````json
+```json
 {
   "piezo_pin": <string>,
   "board": <string>
 }
+```
 
 The following attributes are available for the `joyce:buzzer:piezo` component:
 
@@ -43,7 +44,7 @@ On the **CONTROL** tab, select your piezo component, and use the following DoCom
         "duty_cycle": 0.7
     }
 }
-````
+```
 
 ```json
 {
