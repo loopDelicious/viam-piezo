@@ -1,0 +1,12 @@
+{
+  "module_name": "buzzer",
+  "namespace": "joyce",
+  "language": "python",
+  "resource_type": "component",
+  "resource_subtype": "generic",
+  "model_name": "piezo",
+  "enable_cloud_build": false,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2024-12-17T18:54:57.199657Z"
+}

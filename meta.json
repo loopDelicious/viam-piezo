@@ -1,0 +1,15 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "joyce:buzzer",
+  "visibility": "private",
+  "url": "",
+  "description": "Modular generic component: piezo",
+  "models": [
+    {
+      "api": "rdk:component:generic",
+      "model": "joyce:buzzer:piezo"
+    }
+  ],
+  "entrypoint": "./run.sh",
+  "first_run": ""
+}
