@@ -17,7 +17,8 @@ To use this module, follow these instructions to [add a module from the Viam Reg
 - Click on the **+** icon in the left-hand menu and select **Component**.
 - Select the `generic` type, then select the `piezo` module.
 - Enter a name for your component and click **Create**.
-- On the new component panel, copy and paste the following attribute template into your component’s **CONFIGURE** field:
+- On the new component panel, click on the `Depends On` dropdown, and select the name of the board (to access GPIO pin) according to the Viam app.
+- In the same panel, copy and paste the following attribute template into your component’s **CONFIGURE** field:
 
 ```json
 {
@@ -33,6 +34,7 @@ The following attributes are available for the `joyce:buzzer:piezo` component:
 | `piezo_pin` | string | Required | A digit representing the physical pin on your board connected to the positive terminal of your piezo  |
 | `board`     | string | Required | Name of the board (to access GPIO pin) according to the Viam app |
 
+- ![configure attributes](./attributes.png)
 ### Do Command
 On the **CONTROL** tab, select your piezo component, and use the following DoCommands: `sound_buzzer` or `play_harry_potter` formatted like the following.
 
@@ -51,6 +53,7 @@ On the **CONTROL** tab, select your piezo component, and use the following DoCom
   "play_harry_potter": {}
 }
 ```
+![do command](./doCommand.png)
 
 > [!NOTE]  
 > For more information, see [Configure a Robot](https://docs.viam.com/manage/configuration/).
