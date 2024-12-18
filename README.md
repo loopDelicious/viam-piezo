@@ -6,7 +6,7 @@ With this model, you can sound a piezo buzzer.
 
 ### Build and Run
 
-To use this module, follow these instructions to [add a module from the Viam Registry](https://docs.viam.com/registry/configure/#add-a-modular-resource-from-the-viam-registry) and select the `joyce:buzzer:piezo` model from the [`piezo`](https://app.viam.com/module/joyce/apriltag) module.
+To use this module, follow these instructions to [add a module from the Viam Registry](https://docs.viam.com/registry/configure/#add-a-modular-resource-from-the-viam-registry) and select the `joyce:buzzer:piezo` model from the [`piezo`](https://app.viam.com/module/joyce/buzzer) module.
 
 ### Configure your service
 
